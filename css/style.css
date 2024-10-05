@@ -4,7 +4,7 @@ body {
 
 .recipe-card{
     width: 736px;
-    height: 736px;
+    height:  max-content;
     background-color: white;
     position: absolute;
     margin: auto;
@@ -13,11 +13,32 @@ body {
     bottom: 0;
     left: 0;
     border-radius: 24px;
+    padding-bottom: 30px;
+}
+
+.container {
+    margin: 0 40px 0 40px;
 }
 
 .food-image {
     margin-top: 39px;
     display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center; /* align vertical */
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 656px;
+    height: 300px;
+}
+
+.preparation-card {
+    background-color: #FFF7FB;
+    width: 656px;
+    height: 172px;
+    border-radius: 10px;
+}
+
+hr {
+    background-color: #E3DDD7;
 }
