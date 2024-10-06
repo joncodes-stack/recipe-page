@@ -6,7 +6,6 @@ body {
     width: 736px;
     height:  max-content;
     background-color: white;
-    position: absolute;
     margin: auto;
     top: 0;
     right: 0;
@@ -21,13 +20,13 @@ body {
 }
 
 .food-image {
-    margin-top: 39px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 img {
+    margin-top: 32px;
     width: 656px;
     height: 300px;
 }
