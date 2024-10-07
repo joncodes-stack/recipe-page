@@ -31,12 +31,75 @@ img {
     height: 300px;
 }
 
+.title-recipe {
+    font-family: "Young Serif", serif;
+    font-size: 40px;
+}
+
+.description-recipe{
+    font-family: "Outfit", sans-serif;
+}
+
 .preparation-card {
     background-color: #FFF7FB;
     width: 656px;
     height: 172px;
     border-radius: 10px;
 }
+
+.preparation-title {
+    color: #7A284E;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+.preparation-details {
+    padding: 4px 20px 20px 20px;
+}
+
+span {
+    color: #5F564D;
+}
+
+li {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    list-style: none;
+    position: relative;
+}
+
+.bullet-preparation li::before {
+    content: '•';
+    position: absolute;
+    left: -30px;
+    font-size: 30px;
+    color: #7A284E;
+  }
+
+  .ingredients-title {
+    font-family: "Young Serif", serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #854632;
+  }
+
+  .bullet-ingredients li::before {
+    content: '•';
+    position: absolute;
+    left: -30px;
+    font-size: 30px;
+    color: #854632;
+  }
+
+  .instruction-title {
+    font-family: "Young Serif", serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #854632;
+}
+
+
 
 hr {
     background-color: #E3DDD7;
