@@ -1,5 +1,7 @@
 body {
     background-color: #F3E5D7;
+    display: flex;
+    justify-content: center;
 }
 
 .recipe-card{
@@ -7,10 +9,6 @@ body {
     height:  max-content;
     background-color: white;
     margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     border-radius: 24px;
     padding-bottom: 30px;
 }
