@@ -36,6 +36,7 @@ img {
 
 .description-recipe{
     font-family: "Outfit", sans-serif;
+    color: #5F564D;
 }
 
 .preparation-card {
@@ -127,4 +128,42 @@ span {
 
 hr {
     background-color: #E3DDD7;
+}
+
+.Nutrition-title {
+    font-family: "Young Serif", serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #854632;
+}
+
+.details-table {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5F564D;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .first-column {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5F564D;
+  }
+
+.second-column {
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    color: #854632;
 }
