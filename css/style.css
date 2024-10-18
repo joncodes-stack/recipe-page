@@ -2,6 +2,9 @@ body {
     background-color: #F3E5D7;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 128px;
+    margin-bottom:128px;
 }
 
 .recipe-card{
@@ -46,7 +49,7 @@ img {
     border-radius: 10px;
 }
 
-.preparation-title {
+.preparation-details h3 {
     color: #7A284E;
     font-family: "Outfit", sans-serif;
     font-weight: 600;
@@ -76,7 +79,7 @@ span {
     position: relative;
 }
 
-.bullet-preparation li::before {
+.preparation-card ul li::before {
     content: '•';
     position: absolute;
     left: -30px;
@@ -84,14 +87,14 @@ span {
     color: #7A284E;
   }
 
-  .ingredients-title {
+  .ingredients h2 {
     font-family: "Young Serif", serif;
     font-size: 28px;
     font-weight: 400;
     color: #854632;
   }
 
-  .bullet-ingredients li::before {
+  .ingredients ul li::before {
     content: '•';
     position: absolute;
     left: -30px;
@@ -99,7 +102,7 @@ span {
     color: #854632;
   }
 
-  .instruction-title {
+  .instructions h2 {
     font-family: "Young Serif", serif;
     font-size: 28px;
     font-weight: 400;
@@ -114,7 +117,7 @@ span {
     padding-left: 10px;
 }
 
-.list-numbers {
+.instructions ol {
     padding-left: 27px;
     color: #854632;
     font-family: "Outfit", sans-serif;
@@ -122,7 +125,7 @@ span {
     line-height: 30px;
 }
 
-.list-numbers > li::marker {
+.instructions ol li::marker {
     font-weight: bold;
   }
 
@@ -130,26 +133,26 @@ hr {
     background-color: #E3DDD7;
 }
 
-.Nutrition-title {
+.nutrition h2 {
     font-family: "Young Serif", serif;
     font-size: 28px;
     font-weight: 400;
     color: #854632;
 }
 
-.details-table {
+.nutrition p {
     font-family: "Outfit", sans-serif;
     font-size: 16px;
     line-height: 30px;
     color: #5F564D;
 }
 
-table {
+.nutrition table {
     border-collapse: collapse;
     width: 100%;
   }
 
-th, td {
+.nutrition th, td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
