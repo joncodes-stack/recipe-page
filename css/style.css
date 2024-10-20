@@ -49,10 +49,11 @@ img {
     border-radius: 10px;
 }
 
-.preparation-details h3 {
+.preparation-details p {
     color: #7A284E;
     font-family: "Outfit", sans-serif;
     font-weight: 600;
+    font-size: 20px;
 }
 
 .preparation-details {
